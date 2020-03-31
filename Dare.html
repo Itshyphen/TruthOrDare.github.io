@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>We Dare You!</title>
+    <link rel="stylesheet" type="text/css" href="custom.css"/>
+</head>
+<body>
+<h1>We Dare You!!!</h1>
+<br/><br/><br>
+<h2 id="dare"> </h2>
+<script>
+    var dare = ["Recite the alphabet backward.",
+        "Beat an egg on your head.",
+        "Eat a snack without using your hands.",
+        "Make a funny hat and wear it on your head for the next two rounds.",
+        "Make a shirt/skirt of a garbage bag and wear it for the next two rounds.",
+        "Stand in the chicken pose for the next two rounds.",
+        "Eat a spoonful of mustard.",
+        "Imitate each one of the members in the room.",
+        "Act like your favorite teacher for the next 30 seconds.",
+        "Imitate each one of the members in the room.",
+        "Eat as much hot sauce as you can."];
+    var n = Math.round(Math.random() * 10);
+    document.getElementById("dare").innerHTML = dare[n];
+</script>
+<h2><br/>No Excuse!!! Do Whatever it says!</h2><br/><br/><br/>
+<a id="but" href="index.html" class="button">Next Round</a>
+<script></script>
+
+</body>
+</html>
